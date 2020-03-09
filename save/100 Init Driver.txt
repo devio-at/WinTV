@@ -1,9 +1,0 @@
-
-from https://social.msdn.microsoft.com/Forums/sqlserver/en-US/0056bb2d-cb34-4706-bfc2-67df2ce43167/linked-server-to-access-2010?forum=sqldataaccess
-
-- Right-click and select "properties" for "Microsoft.ACE.OLEDB.12.0" under Server objects, Linked servers, Providers in SSMS.  
-
-- Check "nested queries" and "allow inprocess."   
-
-Then create the linked server for access accdb using the ACE.OLEDB.12.0 provider, with the access filename under data source.
-
